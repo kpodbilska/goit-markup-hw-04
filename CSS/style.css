@@ -29,11 +29,12 @@ ul {
   margin: 0px auto;
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .head {
+  padding-top: 94px;
   padding-bottom: 0px;
 }
 
@@ -92,7 +93,6 @@ ul {
   width: 30px;
   height: 20px;
   padding-right: 10px;
-  fill: #757575;
 }
 
 .navig:hover,
@@ -103,10 +103,6 @@ ul {
 .tel1:focus,
 .contact-to:hover,
 .contact-to:focus,
-.envelope:hover,
-.envelope:focus,
-.smartphone:hover,
-.smartphone:focus,
 .clients-icon:hover,
 .clients-icon:focus {
   color: #2196f3;
@@ -142,7 +138,7 @@ ul {
   padding: 12px;
   margin-right: 10px;
   background: rgba(255, 255, 255, 0.1);
-  fill: #757575;
+  fill: #afb1b8;
 }
 
 .background-icon:hover,
@@ -163,6 +159,7 @@ ul {
   display: flex;
   align-items: center;
   justify-items: center;
+  fill: #757575;
 }
 
 .email1 {
@@ -190,13 +187,13 @@ ul {
   text-decoration: none;
   letter-spacing: 0.02em;
   color: #757575;
+  fill: #757575;
 }
 
 .smartphone {
   width: 30px;
   height: 20px;
   padding-right: 10px;
-  fill: #757575;
 }
 
 .efektywne-rozwiazania-background {
@@ -285,7 +282,6 @@ ul {
 
 .lista2 {
   list-style-type: none;
-  cursor: pointer;
 }
 
 .lista1:hover,
@@ -332,7 +328,7 @@ ul {
   width: 170px;
   height: 92px;
   padding: 17px 32px;
-  fill: #757575;
+  fill: #afb1b8;
 }
 
 .clients-background {
@@ -357,7 +353,14 @@ ul {
   line-height: 42px;
 }
 
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .zespol {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background: #f5f4fa;
 }
 
